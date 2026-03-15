@@ -7,12 +7,12 @@
 
 int main()
 {
-    double x, s1, s2, s3, y;
+    double x, a, s2, s3, y;
 
     printf("Введите значение x: ");
     scanf("%lf", &x);
     
-    s1=x;
+    a=x;
 
     s2 = fabs(x) + 2 * tan(x);
 
@@ -22,7 +22,7 @@ int main()
 
     // Вывод значений
     printf("\n--- Исходные данные ---\n");
-    printf("s1 = %lf\n", s1);
+    printf("s1 = %lf\n", a);
     printf("s2 = |x| + 2*tan(x) = %lf\n", s2);
     printf("s3 = 5.78 * exp(x - 1) = %lf\n", s3);
 
