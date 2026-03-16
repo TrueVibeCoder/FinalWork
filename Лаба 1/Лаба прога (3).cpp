@@ -33,6 +33,16 @@ int main()
     printf("\n--- Результат ---\n");
     printf("y = s2 / s3 = %.6lf\n", y);
 
+
+
+    // Shibanov
+    if(x>=0){
+        printf("Positive number\n");
+    }
+    else{
+        printf("Negative number\n");  
+    }
+
 	getch ();
     return 0;	
 }
