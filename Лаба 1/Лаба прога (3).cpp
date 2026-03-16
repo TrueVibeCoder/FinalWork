@@ -35,7 +35,8 @@ int main()
 
 
 
-    // Shibanov
+    //Shibanov
+    //Проверка x на положительное число
     if(x>=0){
         printf("Positive number\n");
     }
