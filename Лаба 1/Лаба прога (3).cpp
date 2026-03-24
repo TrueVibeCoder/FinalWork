@@ -7,6 +7,8 @@
 
 int main()
 {
+
+int sum =0;
     int m[20];
     for(int i = 0;i<20;i++){
 
@@ -17,6 +19,10 @@ int main()
 
 	m[i] = i;
 	print_f("%i", i)
+}
+    for(int i = 0;i<20;i++){
+
+	sum+=m[i];
 }
 
     printf("Введите значение x: ");
