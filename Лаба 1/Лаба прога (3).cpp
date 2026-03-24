@@ -16,6 +16,7 @@ int main()
     for(int i = 0;i<20;i++){
 
 	m[i] = i;
+	print_f("%i", i)
 }
 
     printf("Введите значение x: ");
